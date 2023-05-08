@@ -1,0 +1,21 @@
+{
+  "name": "andromeda-custom",
+  "displayName": "Andromeda-custom",
+  "description": "custom made andromeda theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "andromeda-custom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/andromeda-custom-color-theme.json"
+      }
+    ]
+  }
+}
